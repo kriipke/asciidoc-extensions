@@ -1,0 +1,19 @@
+openapi: 3.0.0
+info:
+  title: Sample API
+  version: 1.0.0
+paths:
+  /users:
+    get:
+      summary: Get users
+      description: Retrieve a list of users.
+      parameters:
+        - name: limit
+          in: query
+          description: Max number of users
+          required: false
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: A list of users
