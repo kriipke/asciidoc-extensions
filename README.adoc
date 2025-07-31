@@ -1,0 +1,9 @@
+= DevOps RAG Project
+
+	rag-project/
+	├── .env
+	├── vectorstore/
+	├── ingest/
+	├── rag-extension/     # cloned repo contents
+	├── README.md
+
